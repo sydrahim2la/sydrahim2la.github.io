@@ -1,157 +1,269 @@
 <!DOCTYPE html>
-<html>
+<!-- sup -->
+
+<html lang="en" >
+
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <title>SYDRAHIM2LA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 
-  <title>SydRahim2la</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css'>
 
-  <!-- include stylesheets here -->
-  <link rel="stylesheet" href="index.css" />
-  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-<!-- your page (html) layout goes between the <body> tags -->
-<div id=mycontrolers class="controlers">
-  <!-- controlleurs -->
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <div id="controlfont">
 
-    <table class="CVtable">
-      <tr>
-        <td colspan="2">
-          <h3>Sydney Rahimtoola (b. 1993)</h3>
-        </td>
-      </tr>
+<!-- SITE STRUCTURE -->
+  <div id="wrapperWrapper">
+    <div id="wrapper">
 
-      <tr>
-        <td colspan="2">
-          New York, USA
-        </td>
-      </tr>
+      <div class="infoWrapper">
+        <div class="infoContent">
+          <p> start</p>
+        </div>
+        <div class="infoGradient"></div>
+      </div>
 
-      <tr>
-        <td colspan="2">
-          Based: The Hague, Netherlands
-        </td>
-      </tr>
+      <div class="backgroundWrapper">
+          <div class="background-image"></div>
+      </div>
 
-      <tr>
-        <td colspan="2">
-          <a class="emailLink" href="mailto:sydneyrahimtoola@gmail.com" target="_top">sydneyrahimtoola@gmail.com</a>
-        </td>
-      </tr>
+      <div class="headerWrapper">
+        <div class="headerContent">
+          <span class="infoSign">ⓘ Say What!?</span>
+          <div class="nav-prev">← Left</div>
+          <div class="nav-next">→ Right</div>
+          <nav id="navigation">
+          </nav>
+        </div>
+      </div>
 
-      <tr>
-        <td colspan="2">
-          +31 64 04 45 42 1
-        </td>
-      </tr>
+      <section class="main-slider">
+        <!--#############
+        # TITLE PROJECT #
+        ############# -->
+          <div class="projectItem intro newproject" data-video-start="4">
 
-      <tr>
-        <td colspan="2">
-           <br>
-        </td>
-      </tr>
-
-      <tr>
-        <td colspan="2">
-          <h3>Education</h3>
-        </td>
-      </tr>
-
-      <tr>
-        <td style="width: 120px;">2015—2018</td>
-        <td>Royal Academy of Art, Koninklijke Academie von Beeldende Kunst, KABK, Den Haag, Netherlands</td>
-      </tr>
-
-      <tr>
-        <td colspan="2">
-           <br>
-        </td>
-      </tr>
-
-      <tr>
-        <td colspan="2">
-          <h3>Exhibitions & Events</h3>
-        </td>
-      </tr>
-
-      <tr>
-        <td>2018</td>
-        <td>Graduation Festival, Royal Academy of Art, Den Haag, Netherlands</td>
-      </tr>
-
-      <tr>
-        <td>2018</td>
-        <td>New Year, New Me, Den Haag, Netherlands</td>
-      </tr>
-
-      <tr>
-        <td colspan="2">
-           <br>
-        </td>
-      </tr>
-
-      <tr>
-        <td colspan="2">
-          <h3>Print Publications</h3>
-        </td>
-      </tr>
-
-      <tr>
-        <td>2018</td>
-        <td>UNDO, June</td>
-      </tr>
-
-    </table>
-
-<!-- <img src="images\09\DSC_0854.JPG"> -->
-  </div>
-</div>
-
-<div id="wrapperWrapper">
+            <video class="slide-video slide-media" id="introVideo" loop muted preload="metadata" poster="placeholder.png">
+              <source src="vid/Insta027b.mp4" type="video/mp4" />
+            </video>
+            <div class="slide-image slide-media" style="background-image:url('img/me.jpg');display:none;"></div>
 
 
-<header class="wrapper">
-    <div class="menu-area">
-          <div class="menu-item">
-            <ul>
-              <li> <h2>SydRahim2la</h2> </li>
-              <li> <span class=openbtn style="font-size:16px;cursor:pointer" onclick="openNav()">About</span> </li>
-              <li> <A HREF="mailto:sydneyrahimtoola@gmail.com"> <img src="images/mail.png" alt="mail"></a> </li>
-              <li> <a href="https://www.instagram.com/sydneythephotographer123/"> <img src="images/instagram.png" alt="insta"> </a> </li>
-            </ul>
+            <div class="caption">Sydney Rahimtoola</div>
+            <div class="color">#ffe700</div>
+            <div class="description selfDescription">
+              <span class="dontsplit columnbreak">
+                <p class="infoBarParagraph title">About</p>
+                <p class="infoBarParagraph meta">b. 1993, New York, USA. Based: The Hague, Netherlands. +31 64 04 45 42 1 You can contact me via <a href="mailto:sydneyrahimtoola@gmail.com">email</a> or <a href="https://www.instagram.com/sydneythephotographer123/">instagram</a> ✌︎ </p>
+              </span>
+              <p class="infoBarParagraph removeiffirst"></p>
+              <span class="dontsplit columnbreak">
+                <p class="infoBarParagraph title">Education</p>
+                <p class="infoBarParagraph CVlist"><i>2015-2018</i> Royal Academy of Art, Koninklijke Academie von Beeldende Kunst, KABK, Den Haag, Netherlands</p>
+                <p class="infoBarParagraph title">Exhibitions & Events</p>
+                <p class="infoBarParagraph CVlist"><i>2018</i> Graduation Festival, Royal Academy of Art, Den Haag, Netherlands</p>
+                <p class="infoBarParagraph CVlist"><i>2018</i> New Year, New Me, Den Haag, Netherlands</p>
+                <p class="infoBarParagraph title">Print Publications</p>
+                <p class="infoBarParagraph CVlist"><i>2018</i> UNDO</p>
+              </span>
+              <p class="infoBarParagraph removeiffirst"></p>
+              <p class="infoBarParagraph title">Work</p>
+            </div>
           </div>
 
+<!-- ##################################
+#                                     #
+#    NEW PROJECTS BELOW THIS POINT    #
+#                                     #
+################################### -->
+        <!--###########
+        # NEW PROJECT #
+        ############-->
+
+          <div class="projectItem image newproject">
+            <img class="slide-image slide-media" data-lazy="img/UNDO02.jpg" class="image-entity" />
+            <div class="caption">UNDO</div>
+            <div class="color">#00d2ff</div>
+            <div class="description">
+              <span class="dontsplit columnbreak">
+                <p class="infoBarParagraph title">UNDO</p>
+                <p class="infoBarParagraph meta">Publication, </p>
+                <p class="infoBarParagraph meta">2018</p>
+                <p class="infoBarParagraph meta"><span class="metaemoji">📸 </span><a target=”_blank” href="  http://sydrahim2la.com/">Sydney Rahimtoola</a></p>
+              </span>
+              <p class="infoBarParagraph">Undo is about hair.</p>
+              <p class="infoBarParagraph">Cool book</p>
+              <p class="infoBarParagraph">UNDO is a mostly-true documentary that explores the origins, the implications and the future of hair culture.</p>
+              <p class="infoBarParagraph"><i>The entire publication is availabe on <a target=”_blank” href="https://sydrahim2la.com">here</a> :-)</i></p>
+              <p class="infoBarParagraph"><i> <3 </i></p>
+            </div>
+          </div>
+
+          <div class="projectItem image">
+            <img class="slide-image slide-media" data-lazy="img/UNDO00.jpg" class="image-entity" />
+          </div>
+
+          <div class="projectItem image">
+            <img class="slide-image slide-media" data-lazy="img/UNDO01.jpg" class="image-entity" />
+          </div>
+
+          <div class="projectItem image">
+            <img class="slide-image slide-media" data-lazy="img/UNDO03.jpg" class="image-entity" />
+          </div>
+
+          <div class="projectItem image">
+            <img class="slide-image slide-media" data-lazy="img/UNDO04.jpg" class="image-entity" />
+          </div>
+
+        <!--###########
+        # NEW PROJECT #
+        ############-->
+
+          <div class="projectItem image newproject">
+            <img class="slide-image slide-media" data-lazy="img/00.jpg" class="image-entity"/>
+            <div class="caption">La Cigapa</div>
+            <div class="color">#E51D36</div>
+            <div class="description">
+              <span class="dontsplit columnbreak">
+                <p class="infoBarParagraph title">La Cigapa</p>
+                <p class="infoBarParagraph meta">Art direction</p>
+                <p class="infoBarParagraph meta">2019</p>
+                <p class="infoBarParagraph meta"><span class="metaemoji">📸 </span><a target=”_blank” href="  http://darkmanix.com/">Graphic Design by DarkManix</a></p>
+              </span>
+              <p class="infoBarParagraph">wech pelo</p>
+              <p class="infoBarParagraph">69 la trik</p>
+              <p class="infoBarParagraph">toi meme tu le sais</p>
+              <p class="infoBarParagraph">120 c la capital</p>
+              <p class="infoBarParagraph">mas du taureau nique tout</p>
+              <p class="infoBarParagraph">10€ la pointe</p>
+            </div>
+          </div>
+
+          <div class="projectItem image">
+            <img class="slide-image slide-media" data-lazy="img/05.jpg" class="image-entity"/>
+          </div>
+
+          <div class="projectItem image">
+            <img class="slide-image slide-media" data-lazy="img/06.jpg" class="image-entity"/>
+          </div>
+
+          <div class="projectItem image">
+            <img class="slide-image slide-media" data-lazy="img/07.jpg" class="image-entity"/>
+          </div>
+
+          <div class="projectItem image">
+            <img class="slide-image slide-media" data-lazy="img/08.jpg" class="image-entity"/>
+          </div>
+
+          <div class="projectItem image">
+            <img class="slide-image slide-media" data-lazy="img/09.jpg" class="image-entity"/>
+          </div>
+
+          <div class="projectItem image">
+            <img class="slide-image slide-media" data-lazy="img/10.jpg" class="image-entity"/>
+          </div>
+
+          <!--###########
+          # NEW PROJECT #
+          ############-->
+
+          
+
+        <!--###########
+        # NEW PROJECT #
+        ############-->
+<!--###########
+          <div class="projectItem vimeo newproject" data-video-start="4">
+            <div class="lazyVimeo" data-src="325177217"></div>
+
+            <img class="slide-image slide-media" data-lazy="img/_sunlightvandalist/marina_still_2.jpg" class="image-entity videoBackgroundImage"/>
+            <div class="caption">THESIS</div>
+            <div class="color">#bf85ba</div>
+            <div class="description">
+              <span class="dontsplit columnbreak">
+                <p class="infoBarParagraph title">THESIS</p>
+                <p class="infoBarParagraph meta">Bachelor Thesis at ESAC Cambrai</p>
+                <p class="infoBarParagraph meta"> </p>
+                <p class="infoBarParagraph meta">2015</p>
+                <p class="infoBarParagraph meta"><span class="metaemoji">📸 </span><a target=”_blank” href="  ">me</a></p>
+              </span>
+              </span>
+            </div>
+          </div>
+
+          <div class="projectItem image">
+            <img class="slide-image slide-media" data-lazy="img/_sunlightvandalist/marina0.jpg" class="image-entity" />
+          </div>
+
+          <div class="projectItem vimeo" data-video-start="4">
+            <div class="lazyVimeo" data-src="325177309"></div>
+            <img class="slide-image slide-media" data-lazy="img/_sunlightvandalist/marina_still_3.jpg" class="image-entity videoBackgroundImage"/>
+          </div>
+
+          <div class="projectItem image">
+            <img class="slide-image slide-media" data-lazy="img/_sunlightvandalist/marina1.jpg" class="image-entity" />
+          </div>
+
+          <div class="projectItem vimeo" data-video-start="4">
+            <div class="lazyVimeo" data-src="325177397"></div>
+            <img class="slide-image slide-media" data-lazy="img/_sunlightvandalist/marina_still_4.jpg" class="image-entity videoBackgroundImage"/>
+          </div>
+
+############-->
+
+        <!--###########
+        # NEW PROJECT #
+        ############-->
+
+        <!--###########
+          <div class="projectItem vimeo newproject" data-video-start="4">
+            <div class="lazyVimeo" data-src="303069470"></div>
+            <img class="slide-image slide-media videoBackgroundImage" data-lazy="img/_fakefuture/dogstill1.jpg" class="image-entity" />
+            <div class="caption">SYD&PIA</div>
+            <div class="color">#ff6200</div>
+            <div class="description">
+              <span class="dontsplit columnbreak">
+                <p class="infoBarParagraph title">SYD&PIA</p>
+                <p class="infoBarParagraph meta">Video (1 min)</p>
+                <p class="infoBarParagraph meta">For <a target=”_blank” href="  http://areallyfakefuture.com/">A Really Fake Future</a></p>
+                <p class="infoBarParagraph meta">2018</p>
+              </span>
+              <p class="infoBarParagraph">A Really Fake Future is a collaborative project by textile-based designers Karen Huang (Taiwan) and Jason Page (USA), inspired by the tapestries of Dutch artist Elma Beks (1926-2014). The project envisions a future where traditional textile handicrafts such as quilting, embroidery and design are replaced by digital representations. By translating 3D materials to 2D images and vice versa, the designers question what textile craftsmanship may look like in this future.</p>
+              <p class="infoBarParagraph"><i>A Really Fake Future was curated by Florence Parot and exhibited at <a target=”_blank” href="https://www.isoamsterdam.nl/">iso</a> during Unseen Amsterdam from 20-29 September 2018.</i></p>
+            </div>
+          </div>
+
+          <div class="projectItem image">
+            <img class="slide-image slide-media" data-lazy="img/_fakefuture/dogextra1.jpg" class="image-entity" />
+          </div>
+          ############-->
+
+          <!--###########
+          # NEW PROJECT here#
+          ############-->
+
+
+
+      </section>
+
+      <div id="prevArea"></div>
+      <div id="nextArea"></div>
+
+      <div id="whiteScreen"></div>
     </div>
-</header>
+  </div>
 
-<div class="content">
-  <div><img src="images\01.png"></div>
-  <div><img src="images\02.png"></div>
-  <div><img src="images\03.png"></div>
-  <div><img src="images\04.png"></div>
-  <div><img src="images\05.png"></div>
-  <div><img src="images\06.png"></div>
-  <div><img src="images\07.png"></div>
-  <div><img src="images\08.png"></div>
-  <div><img src="images\09.png"></div>
-  <div><img src="images\10.png"></div>
-  <div><img src="images\11.png"></div>
-</div>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js'></script>
+  <script src="https://player.vimeo.com/api/player.js"></script>
+  <script src='js/jquery.columnizer.js'></script>
 
-</div>
-<!--  this is jquery, we use this library because it makes it easier for us to manipulate
-      html with javascript -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!-- include .js files here -->
-<script src="script.js"></script>
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="http:////code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="slick/slick.min.js"></script>
-<!-- the body ends here -->
+  <script  src="js/index.js"></script>
+
 </body>
+
 </html>
-<!-- end of the html document, nothing to see here, move along -->
