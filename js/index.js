@@ -264,7 +264,7 @@ function changeActiveProject(){
     // get the title of that project
     var projectTitle = $(allSlides[projectTitleSlide]).find(".title").get(0);
     // change page title to that project
-    document.title = "Malik Saïb-Mezghiche—" + $(projectTitle).text();
+    document.title = "SYDRAHIM2LA —" + $(projectTitle).text();
     // get the color from that project
 
 
