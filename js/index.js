@@ -158,7 +158,7 @@ function buildInfosign() {
       allSlides.css("transform","translate(0,0)");
       infoWrapper.css("transform","translate(0,0)");
       // change content of infosign
-      $('.infoSign').html( "ⓘ Say What!?" );
+      $('.infoSign').html( "ⓘ info" );
       // change visibility boolean
       infoBarVisible = false;
       // also focus back on the carousel so arrows workx
@@ -170,7 +170,7 @@ function buildInfosign() {
       allSlides.css("transform","translate(0,-" + infoBarHeight + "px)");
       infoWrapper.css("transform","translate(0,-" + infoBarHeight + "px)");
       // change content of infosign
-      $('.infoSign').html( "ⓘ Got it!" );
+      $('.infoSign').html( "x Close" );
       // change visibility boolean
       infoBarVisible = true;
       // also focus back on the carousel so arrows work
@@ -405,7 +405,7 @@ function doTheSlideChange(slick, control){
     lazyloadVimeoVideo(currentSlide);
 
     image = currentSlide.find(".slide-image").get(0);
-    changeBackgroundImage(image);
+  //  changeBackgroundImage(image);
     switch (control) {
       case "play":
         if ((startTime != null && startTime > 0 ) && !currentSlide.hasClass('started')) {
@@ -429,7 +429,7 @@ function doTheSlideChange(slick, control){
     }
   } else if (slideType === "youtube") {
     // in case of youtube video (but why?)
-    changeBackgroundImage();
+    //changeBackgroundImage();
     switch (control) {
       case "play":
         postMessageToPlayer(player, {
@@ -450,12 +450,12 @@ function doTheSlideChange(slick, control){
     }
   } else if (slideType === "image") {
     image = currentSlide.find(".slide-image").get(0);
-    changeBackgroundImage(image);
+    //changeBackgroundImage(image);
   }
   else if (slideType === "intro") {
     // just for the intro slide where i use a html5 video
     image = currentSlide.find(".slide-image").get(0);
-    changeBackgroundImage(image);
+    //changeBackgroundImage(image);
     video = currentSlide.children("video").get(0);
     if (video != null) {
       if (control === "play"){

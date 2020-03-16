@@ -4,43 +4,43 @@
 
   @font-face {
       font-family: "SFText";
-      src: url("../type/AntiqueOliveStd-Roman.otf");
+      src: url("../type/HelveticaLTStd-Roman.otf");
   }
   @font-face {
       font-family: "SFText";
-      src: url("../type/AntiqueOliveStd-Italic.otf");
+      src: url("../type/HelveticaLTStd-Obl.otf");
       font-style: italic;
   }
   @font-face {
       font-family: "SFText";
-      src: url("../type/AntiqueOliveStdt-Light.otf");
+      src: url("../type/HelveticaLTStd-Light.otf");
       font-weight: 300;
   }
   @font-face {
       font-family: "SFText";
-      src: url("../type/AntiqueOliveStd-Compact.otf");
+      src: url("../type/HelveticaLTStd-LightObl.otf");
       font-weight: 300;
       font-style: italic;
   }
   @font-face {
       font-family: "SFText";
-      src: url("../type/AntiqueOliveStd-Bold.otf");
+      src: url("../type/HelveticaLTStd-Bold.otf");
       font-weight: 600;
   }
   @font-face {
       font-family: "SFText";
-      src: url("../type/AntiqueOliveStd-BoldCond.otf");
+      src: url("../type/HelveticaLTStd-BoldObl.otf");
       font-weight: 600;
       font-style: italic;
   }
   @font-face {
       font-family: "SFText";
-      src: url("../type/AntiqueOliveStd-Nord.otf");
+      src: url("../type/HelveticaLTStd-Blk.otf");
       font-weight: 900;
   }
   @font-face {
       font-family: "SFText";
-      src: url("../type/AntiqueOliveStdt-NordItalic.otf");
+      src: url("../type/HelveticaLTStd-Roman-BlkObl.otf");
       font-weight: 900;
       font-style: italic;
   }
@@ -413,6 +413,7 @@ nav > div:last-child {
 }
 
 .menuItemNumber {
+  display: none;
   padding-left: 1.13em;
 }
 
