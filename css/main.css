@@ -242,6 +242,16 @@ a:link, a:visited{
   color: #454545;
 }
 
+#undo{
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#newYear{
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .project-info{
   max-height: 0;
   overflow: hidden;

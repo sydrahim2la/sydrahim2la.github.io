@@ -32,5 +32,5 @@ $(function() {
     }
   });
   document.getElementById('undo').style.backgroundImage="url(img/Work/UNDO/UNDO_BG.jpg)";
-
+  document.getElementById('newYear').style.backgroundImage="url(img/Programming/NewYearNewMe/background_image_/SAZE011918NewYNewMe179.jpg)";
 });
