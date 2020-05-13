@@ -15,6 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  background-color: #454545;
 }
 
 /*
@@ -144,6 +145,14 @@ textarea {
          font-weight: 900;
          font-style: italic;
      }
+     @font-face {
+         font-family: "zapfino";
+         src: url("../type/ZapfinoExtraLTPro.otf");
+     }
+     @font-face {
+         font-family: "orphans";
+         src: url("../type/dreamorphans.ttf");
+     }
 
 body{
    /* background: black; */
@@ -187,12 +196,19 @@ ul {
 a:link, a:visited{
   text-decoration: none;
   color: #DCDCDC;
+  background-color: #D92832;
+}
+
+a:hover{
+  color: #454545;
+  background-color: #DCDCDC;
+
 }
 
 .menu{
   position: fixed;
   z-index: 2;
-  width: 20%;
+  width: 30%;
   color: #DCDCDC;
 }
 
@@ -200,7 +216,7 @@ a:link, a:visited{
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  height: 33vh;
+  height: 67vh;
   overflow-y: scroll;
   margin-inline-end: 1rem;
   background-color: transparent;
@@ -221,6 +237,7 @@ a:link, a:visited{
 .category-header{
   text-align: center;
   margin-block-start: 0.2em;
+  font-weight: 300;
 }
 
 .project-header{
@@ -237,6 +254,11 @@ a:link, a:visited{
   margin-inline-start: -1rem;
 }
 
+#iForgot{
+  background-color: black;
+  font-family: orphans;
+}
+
 #substituteDaddies{
   background-color: white;
   color: #454545;
@@ -247,17 +269,27 @@ a:link, a:visited{
   background-size: cover;
 }
 
+#laCiguapa{
+  background-color: black;
+}
+
+#yamuna{
+  background-color: purple;
+}
+
 #newYear{
   background-attachment: fixed;
   background-size: cover;
+  font-family: zapfino;
+  font-size: 2em;
 }
 
 .project-info{
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  margin-inline-end: 23rem;
-  margin-inline-start: 23rem;
+  margin-inline-end: 20rem;
+  margin-inline-start: 20rem;
   text-align: left;
 }
 .project-image{
@@ -267,13 +299,6 @@ a:link, a:visited{
   margin-bottom: 1.5rem;
 
 }
-
-
-
-
-
-
-
 
 
 
@@ -387,15 +412,80 @@ a:link, a:visited{
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   /* Style adjustments for viewports that meet the condition */
+  .project-info{
+    margin-inline-end: 2rem;
+    margin-inline-start: 2rem;
+  }
+  .menu {
+    position: relative;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .menu-button{
+    width: 100%;
+  }
+  ul {
+    padding-inline-start: 0rem;
+  }
+  p {
+   margin-inline-start: 1em;
+   margin-inline-end: 1em;
+  }
+  .project-container{
+    margin-inline-start: 0rem;
+    margin-inline-end: 0em;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+  /* Style adjustments for viewports that meet the condition */
+  .project-info{
+    margin-inline-end: 1rem;
+    margin-inline-start: 1rem;
+  }
+  .menu {
+    position: relative;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .menu-button{
+    width: 100%;
+  }
+  ul {
+    padding-inline-start: 0rem;
+  }
+  p {
+   margin-inline-start: 1em;
+   margin-inline-end: 1em;
+  }
+  .project-container{
+    margin-inline-start: 0rem;
+    margin-inline-end: 0em;
+  }
 }
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
   (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+  /* Style adjustments for high resolution devices
+  .project-info{
+    margin-inline-end: 2rem;
+    margin-inline-start: 2rem;
+  }
+  .menu {
+    position: relative;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .menu-button{
+    width: 100%;
+  }
+  ul {
+    padding-inline-start: 0rem;
+  }*/
 }
 
 /* ==========================================================================
