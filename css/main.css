@@ -15,7 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
-  background-color: #454545;
+  background-color: #000000;
 }
 
 /*
@@ -104,59 +104,17 @@ textarea {
      ========================================================================== */
 
      @font-face {
-         font-family: "SFText";
-         src: url("../type/HelveticaLTStd-Roman.otf");
+         font-family: "neueBlack";
+         src: url("../type/TheNeue-Black.otf");
      }
      @font-face {
-         font-family: "SFText";
-         src: url("../type/HelveticaLTStd-Obl.otf");
-         font-style: italic;
-     }
-     @font-face {
-         font-family: "SFText";
-         src: url("../type/HelveticaLTStd-Light.otf");
-         font-weight: 300;
-     }
-     @font-face {
-         font-family: "SFText";
-         src: url("../type/HelveticaLTStd-LightObl.otf");
-         font-weight: 300;
-         font-style: italic;
-     }
-     @font-face {
-         font-family: "SFText";
-         src: url("../type/HelveticaLTStd-Bold.otf");
-         font-weight: 600;
-     }
-     @font-face {
-         font-family: "SFText";
-         src: url("../type/HelveticaLTStd-BoldObl.otf");
-         font-weight: 600;
-         font-style: italic;
-     }
-     @font-face {
-         font-family: "SFText";
-         src: url("../type/HelveticaLTStd-Blk.otf");
-         font-weight: 900;
-     }
-     @font-face {
-         font-family: "SFText";
-         src: url("../type/HelveticaLTStd-Roman-BlkObl.otf");
-         font-weight: 900;
-         font-style: italic;
-     }
-     @font-face {
-         font-family: "zapfino";
-         src: url("../type/ZapfinoExtraLTPro.otf");
-     }
-     @font-face {
-         font-family: "orphans";
-         src: url("../type/dreamorphans.ttf");
+         font-family: "roboto";
+         src: url("../type/Roboto-Regular.ttf");
      }
 
 body{
    /* background: black; */
-   font-family: SFText;
+   font-family: roboto;
    overflow-x: hidden;
 }
  /* ==========================================================================
@@ -210,6 +168,18 @@ a:hover{
   z-index: 2;
   width: 30%;
   color: #DCDCDC;
+  font-family: neueBlack;
+}
+
+.title{
+  position: fixed;
+  width: 100%;
+text-align: center;
+font-size: 2.5rem;
+    height: 2.5rem;
+font-family: neueBlack;
+list-style-type: none;
+z-index: 2;
 }
 
 .subnav{
@@ -219,19 +189,20 @@ a:hover{
   height: 67vh;
   overflow-y: scroll;
   margin-inline-end: 1rem;
-  background-color: transparent;
+  background-color: #d92933b8;
 }
 
 .content{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #454545;
+  background-color: #000000;
   color: #DCDCDC;
 }
 
 .category-container{
   width: 98vw;
+      padding-top: 2rem;
 }
 
 .category-header{
@@ -243,6 +214,11 @@ a:hover{
 .project-header{
   text-align: right;
   margin-inline-end: 1rem;
+  font-family: neueBlack;
+}
+
+.info-button{
+  z-index: 30;
 }
 
 .project-container{
@@ -254,34 +230,9 @@ a:hover{
   margin-inline-start: -1rem;
 }
 
-#iForgot{
-  background-color: black;
-  font-family: orphans;
-}
-
-#substituteDaddies{
-  background-color: white;
-  color: #454545;
-}
-
-#undo{
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-#laCiguapa{
-  background-color: black;
-}
-
-#yamuna{
-  background-color: purple;
-}
-
 #newYear{
   background-attachment: fixed;
   background-size: cover;
-  font-family: zapfino;
-  font-size: 2em;
 }
 
 .project-info{
