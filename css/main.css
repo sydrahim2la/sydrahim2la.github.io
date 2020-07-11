@@ -189,6 +189,7 @@ z-index: 2;
   height: 67vh;
   overflow-y: scroll;
   margin-inline-end: 1rem;
+  font-size: 1.5rem;
   background-color: #d92933b8;
 }
 
